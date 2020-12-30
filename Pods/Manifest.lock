@@ -1,0 +1,20 @@
+PODS:
+  - AYPopupPickerView (1.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - AYPopupPickerView
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - AYPopupPickerView
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AYPopupPickerView: 639e88c630c79f68e1dc34cf2c90f43ea2dbff46
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 33c81c06fbf7036b239a0319f897c8efc7426dbe
+
+COCOAPODS: 1.10.0

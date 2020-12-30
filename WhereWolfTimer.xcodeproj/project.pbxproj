@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8730DB403129175280162885 /* Pods_WhereWolfTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A365A04E9DF7AE9B9C2930 /* Pods_WhereWolfTimer.framework */; };
+		A903821F2590437500CD5988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903821E2590437500CD5988 /* AppDelegate.swift */; };
+		A90382282590437700CD5988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90382272590437700CD5988 /* Assets.xcassets */; };
+		A903822B2590437700CD5988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90382292590437700CD5988 /* LaunchScreen.storyboard */; };
+		A9038235259043D500CD5988 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9038234259043D500CD5988 /* MainViewController.swift */; };
+		A903823C25904F1B00CD5988 /* HadesSecondTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903823B25904F1B00CD5988 /* HadesSecondTimer.swift */; };
+		A903824225907E1B00CD5988 /* DIN-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A903824025907E1B00CD5988 /* DIN-Regular.otf */; };
+		A903824325907E1B00CD5988 /* SourceHanSerifCN-Light-5.otf in Resources */ = {isa = PBXBuildFile; fileRef = A903824125907E1B00CD5988 /* SourceHanSerifCN-Light-5.otf */; };
+		A903824C259087EE00CD5988 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903824B259087EE00CD5988 /* SettingViewController.swift */; };
+		A903825225908C7100CD5988 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903825125908C7100CD5988 /* TextCell.swift */; };
+		A90382552590905C00CD5988 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90382542590905C00CD5988 /* TimeModel.swift */; };
+		A90B6282259B20F000D31727 /* 1s.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A90B6281259B20F000D31727 /* 1s.m4a */; };
+		A90B6284259B247400D31727 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B6283259B247400D31727 /* MusicManager.swift */; };
+		A90B6286259B52B600D31727 /* end.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A90B6285259B52B600D31727 /* end.m4a */; };
+		A90B6288259B58BF00D31727 /* night.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A90B6287259B58BF00D31727 /* night.m4a */; };
+		A9FC8DAA2590CE8C003AD1B2 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC8DA92590CE8C003AD1B2 /* TimeViewController.swift */; };
+		A9FC8DAD2590CFB8003AD1B2 /* TimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC8DAC2590CFB8003AD1B2 /* TimeDetailView.swift */; };
+		A9FC8DB02590CFE1003AD1B2 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC8DAF2590CFE1003AD1B2 /* TimeCell.swift */; };
+		A9FC8DD62591D508003AD1B2 /* HadesTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC8DD52591D507003AD1B2 /* HadesTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60A365A04E9DF7AE9B9C2930 /* Pods_WhereWolfTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereWolfTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77293FA6505628AF6F4D0A17 /* Pods-WhereWolfTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereWolfTimer.release.xcconfig"; path = "Target Support Files/Pods-WhereWolfTimer/Pods-WhereWolfTimer.release.xcconfig"; sourceTree = "<group>"; };
+		A903821B2590437500CD5988 /* WhereWolfTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereWolfTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A903821E2590437500CD5988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90382272590437700CD5988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A903822A2590437700CD5988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A903822C2590437700CD5988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9038234259043D500CD5988 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A903823B25904F1B00CD5988 /* HadesSecondTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesSecondTimer.swift; sourceTree = "<group>"; };
+		A903824025907E1B00CD5988 /* DIN-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Regular.otf"; sourceTree = "<group>"; };
+		A903824125907E1B00CD5988 /* SourceHanSerifCN-Light-5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSerifCN-Light-5.otf"; sourceTree = "<group>"; };
+		A903824B259087EE00CD5988 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A903825125908C7100CD5988 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		A90382542590905C00CD5988 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		A90B6281259B20F000D31727 /* 1s.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1s.m4a; sourceTree = "<group>"; };
+		A90B6283259B247400D31727 /* MusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		A90B6285259B52B600D31727 /* end.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = end.m4a; sourceTree = "<group>"; };
+		A90B6287259B58BF00D31727 /* night.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = night.m4a; sourceTree = "<group>"; };
+		A9FC8DA92590CE8C003AD1B2 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		A9FC8DAC2590CFB8003AD1B2 /* TimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDetailView.swift; sourceTree = "<group>"; };
+		A9FC8DAF2590CFE1003AD1B2 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		A9FC8DD52591D507003AD1B2 /* HadesTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesTimer.swift; sourceTree = "<group>"; };
+		AA7526334711A72D0C796C2B /* Pods-WhereWolfTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereWolfTimer.debug.xcconfig"; path = "Target Support Files/Pods-WhereWolfTimer/Pods-WhereWolfTimer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90382182590437500CD5988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8730DB403129175280162885 /* Pods_WhereWolfTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90382122590437500CD5988 = {
+			isa = PBXGroup;
+			children = (
+				A903821D2590437500CD5988 /* WhereWolfTimer */,
+				A903821C2590437500CD5988 /* Products */,
+				EDF0F98285B8E40A0D021FAB /* Pods */,
+				CF7E1CC1354D9F7FFC614BC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A903821C2590437500CD5988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A903821B2590437500CD5988 /* WhereWolfTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A903821D2590437500CD5988 /* WhereWolfTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A903821E2590437500CD5988 /* AppDelegate.swift */,
+				A9038234259043D500CD5988 /* MainViewController.swift */,
+				A903825D2590A92000CD5988 /* 参数配置 */,
+				A903825C2590A91800CD5988 /* 计时开始 */,
+				A903823A25904EFA00CD5988 /* hadesTimer */,
+				A90382272590437700CD5988 /* Assets.xcassets */,
+				A90382292590437700CD5988 /* LaunchScreen.storyboard */,
+				A903822C2590437700CD5988 /* Info.plist */,
+			);
+			path = WhereWolfTimer;
+			sourceTree = "<group>";
+		};
+		A903823A25904EFA00CD5988 /* hadesTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A90B6281259B20F000D31727 /* 1s.m4a */,
+				A90B6283259B247400D31727 /* MusicManager.swift */,
+				A90B6285259B52B600D31727 /* end.m4a */,
+				A903823B25904F1B00CD5988 /* HadesSecondTimer.swift */,
+				A903824025907E1B00CD5988 /* DIN-Regular.otf */,
+				A903824125907E1B00CD5988 /* SourceHanSerifCN-Light-5.otf */,
+			);
+			path = hadesTimer;
+			sourceTree = "<group>";
+		};
+		A903825C2590A91800CD5988 /* 计时开始 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC8DA92590CE8C003AD1B2 /* TimeViewController.swift */,
+				A90382542590905C00CD5988 /* TimeModel.swift */,
+				A9FC8DD52591D507003AD1B2 /* HadesTimer.swift */,
+				A90B6287259B58BF00D31727 /* night.m4a */,
+				A9FC8DAC2590CFB8003AD1B2 /* TimeDetailView.swift */,
+				A9FC8DAF2590CFE1003AD1B2 /* TimeCell.swift */,
+			);
+			path = "计时开始";
+			sourceTree = "<group>";
+		};
+		A903825D2590A92000CD5988 /* 参数配置 */ = {
+			isa = PBXGroup;
+			children = (
+				A903824B259087EE00CD5988 /* SettingViewController.swift */,
+				A903825125908C7100CD5988 /* TextCell.swift */,
+			);
+			path = "参数配置";
+			sourceTree = "<group>";
+		};
+		CF7E1CC1354D9F7FFC614BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60A365A04E9DF7AE9B9C2930 /* Pods_WhereWolfTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF0F98285B8E40A0D021FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7526334711A72D0C796C2B /* Pods-WhereWolfTimer.debug.xcconfig */,
+				77293FA6505628AF6F4D0A17 /* Pods-WhereWolfTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A903821A2590437500CD5988 /* WhereWolfTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903822F2590437700CD5988 /* Build configuration list for PBXNativeTarget "WhereWolfTimer" */;
+			buildPhases = (
+				B3173215050C71B094EFD590 /* [CP] Check Pods Manifest.lock */,
+				A90382172590437500CD5988 /* Sources */,
+				A90382182590437500CD5988 /* Frameworks */,
+				A90382192590437500CD5988 /* Resources */,
+				EBCAF6F766CBD97455E31063 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereWolfTimer;
+			productName = WhereWolfTimer;
+			productReference = A903821B2590437500CD5988 /* WhereWolfTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90382132590437500CD5988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A903821A2590437500CD5988 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A90382162590437500CD5988 /* Build configuration list for PBXProject "WhereWolfTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90382122590437500CD5988;
+			productRefGroup = A903821C2590437500CD5988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A903821A2590437500CD5988 /* WhereWolfTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90382192590437500CD5988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90B6286259B52B600D31727 /* end.m4a in Resources */,
+				A90B6282259B20F000D31727 /* 1s.m4a in Resources */,
+				A903824325907E1B00CD5988 /* SourceHanSerifCN-Light-5.otf in Resources */,
+				A903824225907E1B00CD5988 /* DIN-Regular.otf in Resources */,
+				A903822B2590437700CD5988 /* LaunchScreen.storyboard in Resources */,
+				A90382282590437700CD5988 /* Assets.xcassets in Resources */,
+				A90B6288259B58BF00D31727 /* night.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3173215050C71B094EFD590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhereWolfTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCAF6F766CBD97455E31063 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereWolfTimer/Pods-WhereWolfTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereWolfTimer/Pods-WhereWolfTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhereWolfTimer/Pods-WhereWolfTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90382172590437500CD5988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903821F2590437500CD5988 /* AppDelegate.swift in Sources */,
+				A9038235259043D500CD5988 /* MainViewController.swift in Sources */,
+				A90382552590905C00CD5988 /* TimeModel.swift in Sources */,
+				A9FC8DD62591D508003AD1B2 /* HadesTimer.swift in Sources */,
+				A90B6284259B247400D31727 /* MusicManager.swift in Sources */,
+				A9FC8DB02590CFE1003AD1B2 /* TimeCell.swift in Sources */,
+				A903823C25904F1B00CD5988 /* HadesSecondTimer.swift in Sources */,
+				A9FC8DAD2590CFB8003AD1B2 /* TimeDetailView.swift in Sources */,
+				A9FC8DAA2590CE8C003AD1B2 /* TimeViewController.swift in Sources */,
+				A903825225908C7100CD5988 /* TextCell.swift in Sources */,
+				A903824C259087EE00CD5988 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A90382292590437700CD5988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A903822A2590437700CD5988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A903822D2590437700CD5988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A903822E2590437700CD5988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90382302590437700CD5988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7526334711A72D0C796C2B /* Pods-WhereWolfTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FKMN349J;
+				INFOPLIST_FILE = WhereWolfTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hades.WhereWolfTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90382312590437700CD5988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77293FA6505628AF6F4D0A17 /* Pods-WhereWolfTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FKMN349J;
+				INFOPLIST_FILE = WhereWolfTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hades.WhereWolfTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90382162590437500CD5988 /* Build configuration list for PBXProject "WhereWolfTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903822D2590437700CD5988 /* Debug */,
+				A903822E2590437700CD5988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A903822F2590437700CD5988 /* Build configuration list for PBXNativeTarget "WhereWolfTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90382302590437700CD5988 /* Debug */,
+				A90382312590437700CD5988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90382132590437500CD5988 /* Project object */;
+}

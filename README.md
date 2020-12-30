@@ -8,11 +8,11 @@
 - 显示游戏各阶段倒计时（目前包括：夜晚、警上发言、个人发言、遗言）
 
 ## 界面预览
-![遗言倒计时]()
+![遗言倒计时](https://github.com/Hadesxiye/WhereWolfTimer/tree/main/image/review0.gif)
 
-![参数配置]()
+![参数配置](https://github.com/Hadesxiye/WhereWolfTimer/tree/main/image/review1.gif)
 
-![夜晚]()
+![夜晚](https://github.com/Hadesxiye/WhereWolfTimer/tree/main/image/review2.png)
 
 ## 使用场景
 

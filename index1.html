@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <h>Demo</h>
+    <button onclick='go1()'>获取版本号</button>
+    <button onclick='go2()'>关闭页面</button>
+    <button onclick='go3()'>返回上一级</button>
+    <button onclick='go4()'>设置导航栏</button>
+    <button onclick='go5()'>扫码</button>
+    <button onclick='go6()'>打电话</button>
+    <button onclick='go7()'>打开浏览器</button>
+    <button onclick='go8()'>复制</button>
+    <button onclick='go11()'>打开相机</button>
+    <button onclick='go12()'>打开相册</button>
+    <button onclick='go13()'>获取定位</button>
+
+    <script>
+        console.log("1111")
+
+    function go1(){
+        console.log("1111")
+        glgcBridge.call("getVersion","",(function(res){
+            console.log('ggg',JSON.stringify(res))
+        }));
+    }
+    function go2(){
+        console.log("1111")
+        glgcBridge.call("close","",(function(res){}));
+    }
+    function go3(){
+        console.log("1111")
+        glgcBridge.call("goback","",(function(res){}));
+    }
+    function go4(){
+        console.log("1111")
+        glgcBridge.call("navigationStatus","{\"url\":\"http://www.baidu.com\"}",(function(res){}));
+    }
+    function go5(){
+        console.log("1111")
+        glgcBridge.call("qrCode","",(function(res){
+            console.log('ggg',JSON.stringify(res))
+        }));
+    }
+    function go6(){
+        console.log("1111")
+        glgcBridge.call("callNo","{\"tel\":\"18652465096\"}",(function(res){}));
+    }
+    function go7(){
+        console.log("1111")
+        glgcBridge.call("openSystemBroswer","{\"url\":\"http://www.baidu.com\"}",(function(res){}));
+    }
+    function go8(){
+        console.log("1111")
+        glgcBridge.call("clipboard","{\"content\":\"sadsdfsfsdf\"}",(function(res){}));
+    }
+    function go11(){
+        glgcBridge.call("take_photo","",(function(res){
+
+        }));
+    }
+    function go12(){
+        glgcBridge.call("select_photo","",(function(res){
+            console.log('ggg',res.data)
+        }));
+    }
+
+    function go13(){
+        glgcBridge.call("getLocation","",(function(res){
+            console.log('ggg',res.data)
+        }));
+    }
+</script>
+    
+    
+</body>
+
+</html>
